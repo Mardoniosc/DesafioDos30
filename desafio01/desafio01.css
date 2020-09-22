@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #222f3e;
+  display: flex;
+}
+
+.container-conteudo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 350px;
+  height: 52px;
+  margin-top: 20px;
+  border-radius: 24px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #5f27cd;
+  color: #c8d6e5;
+}
