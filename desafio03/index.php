@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 0 );
+error_reporting(0);
   function resultadosAnimes($search){
     $API_URL = 'https://api.jikan.moe/v3/search/anime?q=' . $search;
     $RESULTADO = file_get_contents($API_URL);
@@ -6,10 +8,11 @@
     $ANIMES = $RESULTADO_OBJ->results;
     return $ANIMES;
   }
-
+  $termo = null;
   $DADOS = NULL;
+  $termo = $_POST['termo'];
 
-  if(($_POST['termo'])){
+  if($termo != null){
     $DADOS = resultadosAnimes($_POST['termo']);
   }
 
@@ -53,5 +56,6 @@
       <hr>
 
   </div>
+  <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
 </body>
 </html>
