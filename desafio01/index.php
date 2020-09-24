@@ -22,6 +22,7 @@
         <button>Nova Imagem</button>
       </a>
     </div>
+    <a href="javascript:history.back()" class="btn">Voltar</a>
   </div>
 </body>
 </html>

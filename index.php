@@ -7,22 +7,13 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="corpoPrincipal">
-    <div class="menuPrincipal">
-      <h2>Desafio dos 30</h2>
-      <br>
-      <nav>
-        <ul class="menu">
+  <h2>Desafio dos 30</h2>
+    <div class="conteudo">
+        <ul>
           <li> <a href="/desafio01">Desafio 01</a></li>
           <li> <a href="/desafio02">Desafio 02</a></li>
-          <li> <a href="/desafio03">Desafio 03</a></li>
-          <li> <a href="/desafio04">Desafio 04</a></li>
-          <li> <a href="/desafio05">Desafio 05</a></li>
+          <li> <a href="#">Desafio 03</a></li>
         </ul>
-      </nav>
     </div>
-
-  </div>
-
 </body>
 </html>

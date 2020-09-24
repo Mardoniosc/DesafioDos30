@@ -21,5 +21,6 @@
       <hr>
     <img src="https://http.cat/<?php echo $httpsErros[$https_key];?>" alt="Cat Status">
   </div>
+  <a href="javascript:history.back()" class="btn">Voltar</a>
 </body>
 </html>
