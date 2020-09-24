@@ -12,7 +12,7 @@
         <ul>
           <li> <a href="/desafio01">Desafio 01</a></li>
           <li> <a href="/desafio02">Desafio 02</a></li>
-          <li> <a href="#">Desafio 03</a></li>
+          <li> <a href="/desafio03">Desafio 03</a></li>
         </ul>
     </div>
 </body>

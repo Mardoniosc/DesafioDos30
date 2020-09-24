@@ -1,0 +1,139 @@
+/* limpando formatação padrão */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+strong {
+  color: #fff;
+  margin: 5px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.conteudo {
+  width: 600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin-right: 50px;
+  position: relative;
+
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border: 2px solid #fff;
+  overflow: auto;
+}
+
+@import url("//fonts.googleapis.com/css?family=Roboto:500");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+.face-button {
+  height: 64px;
+  display: inline-block;
+  border: 3px solid rgb(110, 110, 110);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+}
+
+.face-button .face-primary,
+.face-button .face-secondary {
+  display: block;
+  padding: 0 32px;
+  line-height: 64px;
+  transition: margin 0.4s;
+}
+
+.face-button .face-primary {
+  background-color: #222;
+}
+
+.face-button:hover .face-primary {
+  margin-top: -64px;
+}
+
+#btn {
+  background: #222;
+  height: 50px;
+  min-width: 250px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 250px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+} 
