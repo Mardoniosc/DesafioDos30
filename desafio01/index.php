@@ -1,6 +1,6 @@
 <?php
   $URL_API = 'https://dog.ceo/api/breeds/image/random';
-  $RESULTADO = shell_exec('curl -k -X GET "'.$URL_API.'"');
+  $RESULTADO = file_get_contents($URL_API);
   $RESULTADO_OBJ = json_decode($RESULTADO);
   $IMAGEM = ($RESULTADO_OBJ->message);
 ?>
