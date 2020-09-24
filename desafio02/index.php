@@ -15,7 +15,7 @@
   <div class="conteudo">
     <a href="<?php $_SERVER['PHP_SELF'];?>">
       <ul>
-        <li><span>New Status https</span></li>
+        <li><span>Novo Http Status</span></li>
       </ul>
     </a>
       <hr>
