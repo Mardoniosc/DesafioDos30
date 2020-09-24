@@ -4,5 +4,9 @@
 ## desafio 01
 Dog Image - api :link: https://dog.ceo/dog-api/
 
-## desafui 02
-Https imagem cats - api :link: 
+## desafio 02
+Https imagem cats - api :link: https://http.cat/
+
+## desafio 03
+Busca anime - api :link: https://jikan.moe/
+
