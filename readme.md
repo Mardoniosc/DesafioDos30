@@ -21,9 +21,9 @@ Desafio dos 30 é um desafio que vou aceitar (e você também pode participar) a
 
 ## Disponivel
 
-* a demo de todos os desafios vai está disponivel em https://desafiodos30.000webhostapp.com
-* o video de criação dos projetos vai está disponivel em https://www.youtube.com/watch?v=6cGxMIcSdoM&list=PLXr9Yz6OwMcwnHlcUj-ooZ9QkaWsDuUfq
-* codigo fonte vai ficar disponivel neste repositorio do git https://github.com/Mardoniosc/DesafioDos30
+* a demo de todos os desafios vai está disponivel em [Desafio dos 30](https://desafiodos30.000webhostapp.com)
+* o video de criação dos projetos vai está disponivel em [Lista de YouTube](https://www.youtube.com/watch?v=6cGxMIcSdoM&list=PLXr9Yz6OwMcwnHlcUj-ooZ9QkaWsDuUfq)
+* codigo fonte vai ficar disponivel neste repositorio do git [Mardoniosc](https://github.com/Mardoniosc/DesafioDos30)
 
 
 
