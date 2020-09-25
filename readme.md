@@ -29,22 +29,20 @@ Desafio dos 30 é um desafio que vou aceitar (e você também pode participar) a
 
 
 * [Dia 01 - Dog Api Random](#id01)
-* [Dia 02 - Loader animado](#id02)
-* [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 
 
 
 ##  Desafio dia 01 - Dog Api Random <a name="id01"></a>
-![Dia 01](https://user-images.githubusercontent.com/37448340/88348819-d38d7000-cd24-11ea-99d1-39b04afb77f2.gif)
 
 [Meu codigo]() *Adicionaar ainda*
 
 [Como foi criado](https://www.youtube.com/watch?v=YmXWHtBTKak) *Video com velocidade rapida* 
 
 [Post LinkedIn]() *Não disponível*
-:link:[Link api](https://dog.ceo/dog-api/)
+
+:link:[Link api](https://dog.ceo/dog-api/) *Api de onde foi pego as informações*
 
 
 ##### O que eu aprendi
 
-*Consumo de uma api simples e mostrar os dados recebidos por json.*
+*Consumo de dados de api simples e mostrar os dados recebidos em tela.*
