@@ -1,4 +1,4 @@
-## 🚀 30diasDeCSS 🚀
+## 🚀 Desafio dos 30 🚀
  
  Fala Devs, beleza? 🖖
 
